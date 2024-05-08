@@ -1,4 +1,4 @@
-function handleSearchSubmit(event){
+function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");
   let weatherAppCity = document.querySelector("#weather-app-city");
@@ -7,3 +7,4 @@ function handleSearchSubmit(event){
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
+
